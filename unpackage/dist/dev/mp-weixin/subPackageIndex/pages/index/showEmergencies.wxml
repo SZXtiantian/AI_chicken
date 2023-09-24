@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['goToNew',['$event']]]]]}}" class="newEmergencies" bindtap="__e">紧急事件</button><button data-event-opts="{{[['tap',[['goToHistory',['$event']]]]]}}" class="histories" bindtap="__e">历史事件</button></view>

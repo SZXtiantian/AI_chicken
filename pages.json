@@ -1,0 +1,121 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智慧乌鸡"
+			}
+		},
+		{
+			"path": "pages/WorkOrder/WorkOrder",
+			"style": {}
+		},
+		{
+			"path": "pages/BreedData/BreedData",
+			"style": {}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {}
+		}
+	],
+	"subPackages": [{
+			"root": "subPackageUser",
+			"pages": [{
+				"path": "pages/register/register"
+			}]
+		},
+		{
+			"root": "subPackageWorkOrder",
+			"pages": [{
+					"path": "pages/WorkOrder/DailyMove"
+				},
+				{
+					"path": "pages/WorkOrder/EmergencyRegistration"
+				}
+			]
+		},
+		{
+			"root": "subPackageBreedData",
+			"pages": [{
+				"path": "pages/BreedData/FeedUsage"
+			}]
+		},
+		{
+			"root": "subPackageIndex",
+			"pages": [{
+					"path": "pages/index/qiandao"
+				},
+				{
+					"path": "pages/index/viewdata"
+				},
+				{
+					"path": "pages/index/intro"
+				},
+				{
+					"path": "pages/index/choose"
+				}, 
+				{
+					"path": "pages/index/showEmergencies",
+					"style": {
+						"navigationBarTitleText": "查看紧急事件"
+					}
+				},
+				{
+					"path": "pages/index/showEmergenciesHistory",
+					"style": {
+						"navigationBarTitleText": "历史事件"
+					}
+				},
+				{
+					"path": "pages/index/showNewEmergencies",
+					"style": {
+						"navigationBarTitleText": "最新事件"
+					}
+				}
+				
+			    ,{
+                    "path" : "pages/index/details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "事件详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["subPackageIndex"]
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "养殖场展示",
+				"iconPath": "static/系统首页.png",
+				"selectedIconPath": "static/系统首页 (1).png"
+			},
+			{
+				"pagePath": "pages/WorkOrder/WorkOrder",
+				"text": "工单打卡",
+				"iconPath": "static/看板管理.png",
+				"selectedIconPath": "static/看板管理 (1).png"
+			},
+			{
+				"pagePath": "pages/BreedData/BreedData",
+				"text": "养殖管理",
+				"iconPath": "static/区域管理 (1).png",
+				"selectedIconPath": "static/区域管理.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "用户信息",
+				"iconPath": "static/账号.png",
+				"selectedIconPath": "static/账号 (1).png"
+			}
+		]
+	}
+}

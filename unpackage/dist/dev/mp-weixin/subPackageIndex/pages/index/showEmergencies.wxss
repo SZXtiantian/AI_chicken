@@ -1,0 +1,14 @@
+
+.newEmergencies {
+	width: 80%;
+	text-align: center;
+	padding: 10%;
+	margin: 10%;
+}
+.histories {
+	width: 80%;
+	text-align: center;
+	padding: 10%;
+	margin: 10%;
+}
+

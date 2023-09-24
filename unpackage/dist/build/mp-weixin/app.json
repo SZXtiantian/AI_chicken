@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/WorkOrder/WorkOrder",
+    "pages/BreedData/BreedData",
+    "pages/user/user"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackageUser",
+      "pages": [
+        "pages/register/register"
+      ]
+    },
+    {
+      "root": "subPackageWorkOrder",
+      "pages": [
+        "pages/WorkOrder/DailyMove",
+        "pages/WorkOrder/EmergencyRegistration"
+      ]
+    },
+    {
+      "root": "subPackageBreedData",
+      "pages": [
+        "pages/BreedData/FeedUsage"
+      ]
+    },
+    {
+      "root": "subPackageIndex",
+      "pages": [
+        "pages/index/qiandao",
+        "pages/index/viewdata",
+        "pages/index/intro",
+        "pages/index/choose"
+      ]
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "养殖场展示",
+        "iconPath": "static/系统首页.png",
+        "selectedIconPath": "static/系统首页 (1).png"
+      },
+      {
+        "pagePath": "pages/WorkOrder/WorkOrder",
+        "text": "工单打卡",
+        "iconPath": "static/看板管理.png",
+        "selectedIconPath": "static/看板管理 (1).png"
+      },
+      {
+        "pagePath": "pages/BreedData/BreedData",
+        "text": "养殖管理",
+        "iconPath": "static/区域管理 (1).png",
+        "selectedIconPath": "static/区域管理.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户信息",
+        "iconPath": "static/账号.png",
+        "selectedIconPath": "static/账号 (1).png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "subPackageIndex"
+      ]
+    }
+  },
+  "usingComponents": {}
+}

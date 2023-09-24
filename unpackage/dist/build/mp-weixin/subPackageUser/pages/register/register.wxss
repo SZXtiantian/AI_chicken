@@ -1,0 +1,1 @@
+.container{padding:20rpx}.input-group{margin-bottom:20rpx}.label{display:block;margin-bottom:10rpx}.input{width:100%;padding:10rpx;border:1px solid #ccc;border-radius:4rpx}.picker{padding:10rpx;border:1px solid #ccc;border-radius:4rpx}.submit-btn{width:100%;padding:15rpx;background-color:#007aff;color:#fff;text-align:center;border-radius:4rpx}

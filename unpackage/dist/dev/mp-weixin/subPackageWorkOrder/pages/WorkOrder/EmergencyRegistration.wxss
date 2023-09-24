@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.mainCSS {
+  padding: 25rpx;
+  background-color: white;
+}
+.column {
+  margin-top: 30rpx;
+  margin-bottom: 15rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+button {
+  border-radius: 30rpx;
+}
+

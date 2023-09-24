@@ -1,0 +1,20 @@
+
+.wuguEmergencies {
+	border-style:solid;
+	text-align: center;
+	padding: 10%;
+	margin: 10%;
+}
+.stealEmergencies {
+	border-style:solid;
+	text-align: center;
+	padding: 10%;
+	margin: 10%;
+}
+.shebeiEmergencies {
+	border-style:solid;
+	text-align: center;
+	padding: 10%;
+	margin: 10%;
+}
+
